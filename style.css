@@ -1,5 +1,74 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Center the header */
+h1 {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+/* Center and style the image caption */
+.image-caption {
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  /* Ensures it behaves like a paragraph */
+  margin: 10px auto;
+  /* Centers the text properly */
+}
+
+/* Style the navigation links */
+nav {
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: grey;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Center the text block inside #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Footer styling for #details section */
+#details {
+  display: flex;
+  background-color:grey;
+  /* Match reference image */
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+/* Style each footer column */
+#details div {
+  width: 25%;
+  /* Ensure equal width */
+  text-align: center;
+  color: black;
+  background-color: transparent;
+  /* No extra backgrounds */
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Styling links in the footer */
+#details a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#details a:hover {
+  text-decoration: underline;
 }
